@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"fed31420c7d24264","x":480,"y":-301,"width":250,"height":61,"type":"text","text":"Python Love2D project Manager"},
+		{"id":"d05f711c4e088eb3","x":480,"y":-210,"width":250,"height":60,"type":"text","text":"Popen async input pipe"},
+		{"id":"5701db7244710a77","x":480,"y":-120,"width":250,"height":60,"type":"text","text":"Love.2D project"},
+		{"id":"22e62ac5684da521","x":-150,"y":-249,"width":250,"height":60,"type":"text","text":"flutter_android"},
+		{"id":"3e767ba6780e7eae","x":-150,"y":-150,"width":250,"height":59,"type":"text","text":"flutter_mqttclient5 (publisher)"},
+		{"id":"96259040f7313259","x":-480,"y":-189,"width":250,"height":60,"type":"text","text":"android gyroscope data"},
+		{"id":"1063d67986a2d65a","x":160,"y":-249,"width":250,"height":60,"type":"text","text":"PAHO (broker)"},
+		{"id":"d1aeed4bb84c00dd","x":160,"y":-151,"width":250,"height":60,"type":"text","text":"PAHO(subscriber)"}
+	],
+	"edges":[
+		{"id":"62ca537c5b8ebd8c","fromNode":"96259040f7313259","fromSide":"right","toNode":"22e62ac5684da521","toSide":"left"},
+		{"id":"c962fa5ce789af40","fromNode":"3e767ba6780e7eae","fromSide":"right","toNode":"1063d67986a2d65a","toSide":"left","color":"1"},
+		{"id":"14ab5f009c894536","fromNode":"d1aeed4bb84c00dd","fromSide":"right","toNode":"fed31420c7d24264","toSide":"left"},
+		{"id":"a5e1ecb5cc6ae79a","fromNode":"22e62ac5684da521","fromSide":"bottom","toNode":"3e767ba6780e7eae","toSide":"top"},
+		{"id":"3c81fa95c019d588","fromNode":"1063d67986a2d65a","fromSide":"bottom","toNode":"d1aeed4bb84c00dd","toSide":"top"},
+		{"id":"e19067d971fb7dee","fromNode":"fed31420c7d24264","fromSide":"bottom","toNode":"d05f711c4e088eb3","toSide":"top"},
+		{"id":"d663668f72b244b6","fromNode":"d05f711c4e088eb3","fromSide":"bottom","toNode":"5701db7244710a77","toSide":"top","color":"1"}
+	]
+}
